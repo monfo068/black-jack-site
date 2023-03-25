@@ -1,9 +1,9 @@
 body {
-	background-color:lightblue;
+    background-color:lightblue;
     background-image: url(sfondo.png);
     background-repeat: no-repeat;
     background-size: 100%;
-    background-attachment:fixed;
+    background-attachment:scroll;
 }
 
 ul {
