@@ -1,0 +1,99 @@
+body {
+    background-color: #284A37;
+  }
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10%;
+    border: 4px solid #BEA066;
+    background-color: #000000;
+}
+.logo{
+    position: fixed;
+    top: 0.5%;
+    left: 1%;
+    width: 10%;
+    height: auto;
+}
+.rule_box{
+    position: fixed;
+    top: 2.5%;
+    left: 55%;
+    z-index: 2;
+    font-size: 20px;
+    color: #284A37;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 3%;
+    padding-right: 3%;
+    /*Button Properties*/
+    border: none;
+    border-top: 2px solid #BEA066;
+    border-bottom: 2px solid #BEA066;
+    border-left: 10px solid #BEA066;
+    border-right: 10px solid #BEA066;
+    background-color: #BEA066;
+    border-radius: 50px;
+}
+.who_box{
+    position: fixed;
+    top: 2.5%;
+    left: 68%;
+    z-index: 2;
+    font-size: 20px;
+    color: #284A37;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 3%;
+    padding-right: 3%;
+    /*Button Properties*/
+    border: none;
+    border-top: 2px solid #BEA066;
+    border-bottom: 2px solid #BEA066;
+    border-left: 10px solid #BEA066;
+    border-right: 10px solid #BEA066;
+    background-color: #BEA066;
+    border-radius: 50px;
+}
+.login_box{
+    position: fixed;
+    top: 2.5%;
+    left: 85%;
+    z-index: 2;
+    font-size: 20px;
+    color: #284A37;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 3%;
+    padding-right: 3%;
+    /*Button Properties*/
+    border: none;
+    border-top: 2px solid #BEA066;
+    border-bottom: 2px solid #BEA066;
+    border-left: 10px solid #BEA066;
+    border-right: 10px solid #BEA066;
+    background-color: #BEA066;
+    border-radius: 50px;
+}
+.title{
+    font-size: 50px;
+    margin-top: 5%;
+    text-align: center;
+}
+h3{
+    color: #BEA066;
+    font-weight: bolder;
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    font-size: 15px;
+    color: #000000;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*ANIMATION*/
+#zoom_in {transition: transform .5s;}
+#zoom_in:hover {transform: scale(1.2);}
